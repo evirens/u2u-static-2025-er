@@ -1,0 +1,34 @@
+{
+    "routes":[
+        {
+            "route":"/home",
+            "rewrite":"/pages/home.html",
+            "allowedRoles":["authenticated"]
+        },
+        {
+            "route":"/lineup",
+            "rewrite":"/pages/lineup.html",
+            "allowedRoles":["authenticated"]
+        },
+        {
+            "route":"/pictures",
+            "rewrite":"/pages/pictures.html",
+            "allowedRoles":["authenticated"]
+        },
+        {
+            "route":"/practical",
+            "rewrite":"/pages/practical.html",
+            "allowedRoles":["authenticated"]
+        },
+        {
+            "route":"/tickets",
+            "rewrite":"/pages/tickets.html",
+            "allowedRoles":["authenticated"]
+        },
+        {
+            "route":"/upload",
+            "rewrite":"/pages/upload.html",
+            "allowedRoles":["authenticated"]
+        }
+    ]
+}
