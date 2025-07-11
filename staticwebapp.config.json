@@ -29,6 +29,10 @@
             "route":"/upload",
             "rewrite":"/pages/upload.html",
             "allowedRoles":["authenticated"]
+        },
+        {
+            "route":"/login",
+            "rewrite":"/.auth/login/facebook"
         }
     ]
 }
