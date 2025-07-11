@@ -32,7 +32,7 @@
         },
         {
             "route":"/login",
-            "rewrite":"/.auth/login/facebook"
+            "rewrite":"/.auth/login/aad"
         }
     ]
 }
